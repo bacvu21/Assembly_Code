@@ -1,0 +1,13 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+      {
+         "label": "Assemble File",
+         "type": "shell",
+         "command": "python ./NewAssembler1.py ./asm/${fileBasename} ./mc/${fileBasenameNoExtension}.mc",
+         "problemMatcher": []
+      }
+   ]
+ }
